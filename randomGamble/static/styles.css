@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+button:hover {
+    background-color: rgb(7, 196, 7);
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#multiplier {
+    margin-top: 10px;
+}
+
+.red { color: red; }
+.black { color: black; }
+.green { color: green; }
